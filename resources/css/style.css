@@ -31,25 +31,20 @@ section {
 }
 
 .icon-app {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-color: #fff;
-    border-radius: 18px;
+    border-radius: 12px;
     border: 1px solid #e2e2e2;
 }
 
 .icon-small {
     display: inline-block;
-    width: 30px;
-    text-align: center;
     color: #e67e22;
-    font-size: 120%;
-    margin-right: 10px;
-    
-    /* Secrets to align text and icons */
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
+}
+
+.app-screen {
+    width: 40%;
 }
 
 /* ----- HEADINGS ----- */
@@ -137,33 +132,55 @@ nav {
 /* APPS */
 /* ------------------------------------------------ */
 
-.section-apps {
-    background-color: #f4f4f4;
-}
-
 .app-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    -webkit-box-shadow: 0 2px 2px #efefef;
-    box-shadow: 0 2px 2px #efefef;
+    margin-top: 30px;
 }
 
-.app-box div {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
+.app-box:first-child {
+    text-align: right;
+    padding-right: 3%;
 }
 
-.app-box ul {
-    list-style: none;
+.app-box:last-child {
+    padding-left: 3%;
 }
 
 .icon-app {
     float: left;
-    margin-right: 10px;
 }
 
+.app-name {
+    padding-left: 80px;
+    padding-top: 2px;
+    font-size: 140%;
+    font-weight: 300;
+}
+
+.app-rating {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding-bottom: 12px;
+}
+
+.app-rating li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.app-description p {
+    display: block;
+    margin-top:30px;
+    font-size: 110%;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    padding-right: 10px;
+}
 
 
 
