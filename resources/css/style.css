@@ -24,8 +24,6 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 /* ------------------------------------------------ */
@@ -38,11 +36,6 @@ body {
 
 section {
     padding: 80px 0;
-}
-
-.icon-small {
-    display: inline-block;
-    color: #e67e22;
 }
 
 .app-screen {
@@ -63,6 +56,36 @@ h2 {
     word-spacing: 2px;
     letter-spacing: 1px;
     text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* ----- PARAGRAPHS ----- */
+.long-text {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+    display: block;
+    font-size: 250%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    color: #e67e22;
 }
 
 /* ------------------------------------------------ */
@@ -186,7 +209,7 @@ header {
 .app-detail {
     position: absolute;
     left: 75px;
-    top: 32px;
+    top: 36px;
     font-size: 70%;
 }
 
@@ -206,16 +229,42 @@ header {
 }
 
 
+/* ------------------------------------------------ */
+/* ABOUT ME */
+/* ------------------------------------------------ */
+
+.section-about .long-text {
+    margin-bottom: 30px;
+}
 
 
+/* ------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------ */
 
+footer {
+    background-color: #333;
+}
 
+.socials {
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+}
 
+.socials .icon-big {
+    padding: 10px 20px;
+}
 
+.socials li {
+    display: inline-block;
+}
 
-
-
-
+footer p {
+    color: #888;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 
 
