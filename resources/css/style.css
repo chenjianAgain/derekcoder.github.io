@@ -71,34 +71,36 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-header.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 50vh;
 }
 
 nav {
-    position: fixed;
+/*    position: fixed;*/
+/*
     top: 0;
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
+*/
 }
 
-.nav-avatar img {
-    width:40px;
-    height: 40px;
-    margin: 10px 10px 10px 0;
+.user-nav div:first-child img {
+    width:34px;
+    height: 34px;
+    margin: 15px 10px 10px 0;
     float: left;
-    border-radius: 20px;
+    border-radius: 17px;
     border: 1px solid rgba(47, 47, 47, 0.8);
 }
 
-.nav-title {
-    color: #2f2f2f;
+.user-nav div:last-child {
+    color: #fff;
     float: left;
-    padding-top: 15px;
+    margin-top: 20px;
     font-weight: 400;
-    font-size: 110%;
+    font-size: 90%;
 }
 
 .main-nav {
@@ -114,7 +116,7 @@ nav {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    color: #555;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
