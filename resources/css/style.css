@@ -141,102 +141,64 @@ header {
     background-color: #f2f2f2;
 }
 
-.box-app {
+.app-box {
     background-color: #fff;
     border-radius: 10px;
 }
 
-.box-app img {
+.app-cover {
     width: 100%;
     height: auto;
 }
 
-.box-app .app-description {
-    margin: 2px 12px;
+.app-description {
+    margin: 10px 16px;
     font-weight: 400;
     color: #333;
-    display: inline-block;
 }
 
-.box-app .info-app {
-    list-style: none;
-    
+.app-info {
+    position: relative;
 }
 
-.box-app .info-app li {
-    display: inline-block;
-}
-
-.box-app .info-app li:first-child img {
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 12px;
-    border: 1px solid #e2e2e2;
-}
-
-.box-app .info-app li:last-child {
-    font-size: 90%;
-    font-weight: 400;
-    height: 60px;
-}
-
-/*
-.app-box {
-    margin-top: 30px;
-}
-
-.app-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-}
-
-.app-box:last-child {
-    padding-left: 3%;
-    margin-top: 50px;
-}
-
-.icon-app {
-    float: left;
+.app-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin: 10px 0 10px 14px;
 }
 
 .app-name {
-    padding-left: 80px;
-    padding-top: 2px;
-    font-size: 140%;
+    position: absolute;
+    left: 75px;
+    top: 12px;
+    font-size: 90%;
+    color: #333;
     font-weight: 300;
 }
 
-.app-rating {
-    list-style: none;
-    float: left;
-    margin-left: 10px;
-    margin-top: 4px;
-    margin-right: 10px;
-    padding-bottom: 12px;
+.app-detail {
+    position: absolute;
+    left: 75px;
+    top: 32px;
+    font-size: 70%;
 }
 
-.app-rating li {
-    text-decoration: none;
+.app-info .btn {
     display: inline-block;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 18px;
+    text-transform: uppercase;
+    font-size: 60%;
+    margin-top: 18px;
+    margin-right: 10px;
 }
-
-.app-description {
-    margin-bottom: 160px;
-}
-
-.app-description p {
-    display: block;
-    margin-top:30px;
-    font-size: 110%;
-}
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    padding-right: 10px;
-}
-*/
 
 
 
