@@ -24,6 +24,8 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* ------------------------------------------------ */
@@ -144,6 +146,8 @@ header {
 .app-box {
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 2px 2px #efefef;
+    overflow: hidden;
 }
 
 .app-cover {
@@ -155,6 +159,7 @@ header {
     margin: 10px 16px;
     font-weight: 400;
     color: #333;
+    text-align: center;
 }
 
 .app-info {
