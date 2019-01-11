@@ -1,3 +1,10 @@
+
+/* ------------------------------------------------ */
+/* FONT COLOR:
+/* 1. #333   2. 555
+/* ------------------------------------------------ */
+
+
 /* ------------------------------------------------ */
 /* BASIC SETUP */
 /* ------------------------------------------------ */
@@ -28,14 +35,6 @@ body {
 
 section {
     padding: 80px 0;
-}
-
-.icon-app {
-    width: 70px;
-    height: 70px;
-    background-color: #fff;
-    border-radius: 12px;
-    border: 1px solid #e2e2e2;
 }
 
 .icon-small {
@@ -86,7 +85,7 @@ nav {
 */
 }
 
-.user-nav div:first-child img {
+.nav-user div:first-child img {
     width:34px;
     height: 34px;
     margin: 15px 10px 10px 0;
@@ -95,7 +94,7 @@ nav {
     border: 1px solid rgba(47, 47, 47, 0.8);
 }
 
-.user-nav div:last-child {
+.nav-user div:last-child {
     color: #fff;
     float: left;
     margin-top: 20px;
@@ -103,19 +102,19 @@ nav {
     font-size: 90%;
 }
 
-.main-nav {
+.nav-main {
     list-style: none;
     float: right;
     margin: 18px 0;
 }
 
-.main-nav li {
+.nav-main li {
     display: inline-block;
     margin-left: 40px;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
+.nav-main li a:link,
+.nav-main li a:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -124,8 +123,8 @@ nav {
     border-bottom: 1px solid transparent;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.nav-main li a:hover,
+.nav-main li a:active {
     border-bottom: 1px solid #555;
 }
 
@@ -134,6 +133,49 @@ nav {
 /* APPS */
 /* ------------------------------------------------ */
 
+.section-apps {
+    background-color: #f2f2f2;
+}
+
+.box-app {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box-app img {
+    width: 100%;
+    height: auto;
+}
+
+.box-app .app-description {
+    margin: 2px 12px;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+}
+
+.box-app .info-app {
+    list-style: none;
+}
+
+.box-app .info-app li {
+    display: inline-block;
+}
+
+.box-app .info-app li:first-child img {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+}
+
+.box-app .info-app li:last-child {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+/*
 .app-box {
     margin-top: 30px;
 }
@@ -188,6 +230,7 @@ nav {
     width: auto;
     padding-right: 10px;
 }
+*/
 
 
 
