@@ -143,6 +143,7 @@ nav {
 
 .app-box:last-child {
     padding-left: 3%;
+    margin-top: 50px;
 }
 
 .icon-app {
@@ -168,6 +169,10 @@ nav {
 .app-rating li {
     text-decoration: none;
     display: inline-block;
+}
+
+.app-description {
+    margin-bottom: 160px;
 }
 
 .app-description p {
