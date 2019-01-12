@@ -13,6 +13,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -93,6 +94,7 @@ h2:after {
 /* ------------------------------------------------ */
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-header.jpg);
     background-size: cover;
     background-position: center;
@@ -119,6 +121,7 @@ header {
     font-size: 90%;
     padding: 8px 0;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -132,6 +135,7 @@ header {
     width: 1140px;
     top: 200px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
@@ -168,6 +172,7 @@ header {
 .app-box {
     background-color: #fff;
     border-radius: 10px;
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     overflow: hidden;
 }
@@ -226,6 +231,7 @@ header {
     font-size: 60%;
     margin-top: 20px;
     margin-right: 10px;
+    -webkit-transition: background-color 0.2s, border 0.2s;
     transition: background-color 0.2s, border 0.2s;
     text-align: center;
 }
@@ -269,6 +275,7 @@ footer {
     font-size: 200%;
     color: #fff;
     padding: 30px 20px;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
