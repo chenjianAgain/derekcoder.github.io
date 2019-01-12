@@ -1,0 +1,92 @@
+
+/* Big tablets to computers(widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .user-info-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    .app-name { font-size: 85%; }
+}
+
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 19px; }
+    section { padding: 60px 0; }
+    
+    .long-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .app-icon { 
+        display: block; 
+        margin-top: 20px;
+    }
+    .app-description { font-size: 90%; }
+    .app-name { top: 4px; }
+    .app-detail { top: 28px; }
+    .app-info .btn:link,
+    .app-info .btn:visited {
+        display: block;
+        float: none;
+        font-size: 80%;
+        margin: 15px 20px;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 18px; }
+    section { padding: 30px 0; }
+
+    .user-info-box,
+    .row {
+        padding: 0 4%;
+    }
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    
+    h2 { font-size: 150%; }
+    
+    .long-text {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-icon { 
+        display: inline-block; 
+        margin-top: 10px;
+    }
+    .app-name { top: 12px; }
+    .app-detail { top: 36px; }
+    .app-info .btn:link,
+    .app-info .btn:visited {
+        display: inline-block;
+        float: right;
+        font-size: 60%;
+        margin: 20px 10px 0 0;
+    }
+    
+    .fa-github,
+    .fa-twitter,
+    .fa-weibo {
+        font-size: 180%;
+    }
+    
+    footer p {
+        font-size: 85%;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+}
